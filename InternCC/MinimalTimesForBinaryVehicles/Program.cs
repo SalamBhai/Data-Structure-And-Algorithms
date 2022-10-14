@@ -21,8 +21,8 @@ static int MinimalNumberOfTimesForIllegalVehicleRemoval(int[] vehicles)
             }
             else if(vehicles[indexingLast] == 1)
             {
-                vehiclesList.RemoveAt(vehiclesList.IndexOf(vehicles[indexingLast]));
                  numberOfSteps++;
+                vehiclesList.RemoveAt(vehiclesList.IndexOf(vehicles[indexingLast]));
             }
         }
 
